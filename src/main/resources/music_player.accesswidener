@@ -1,0 +1,21 @@
+accessWidener	v1	named
+accessible field net/minecraft/client/gui/widget/TextFieldWidget focusUnlocked Z
+accessible field net/minecraft/client/gui/widget/EntryListWidget$Entry parentList Lnet/minecraft/client/gui/widget/EntryListWidget;
+accessible field net/minecraft/client/gui/widget/TextFieldWidget textRenderer Lnet/minecraft/client/font/TextRenderer;
+accessible field net/minecraft/client/gui/widget/TextFieldWidget selectionStart I
+accessible field net/minecraft/client/gui/widget/TextFieldWidget firstCharacterIndex I
+accessible field net/minecraft/client/gui/widget/TextFieldWidget selectionEnd I
+accessible field net/minecraft/client/gui/widget/TextFieldWidget text Ljava/lang/String;
+accessible field net/minecraft/client/gui/widget/TextFieldWidget focusedTicks I
+accessible field net/minecraft/client/gui/widget/TextFieldWidget drawsBackground Z
+accessible field net/minecraft/client/gui/widget/TextFieldWidget renderTextProvider Ljava/util/function/BiFunction;
+accessible method net/minecraft/client/gui/widget/TextFieldWidget drawSelectionHighlight (IIII)V
+accessible field net/minecraft/client/gui/widget/TextFieldWidget suggestion Ljava/lang/String;
+accessible field net/minecraft/client/gui/widget/TextFieldWidget maxLength I
+accessible field net/minecraft/client/gui/widget/TextFieldWidget editable Z
+mutable field net/minecraft/client/gui/widget/ButtonWidget tooltipSupplier Lnet/minecraft/client/gui/widget/ButtonWidget$TooltipSupplier;
+mutable field net/minecraft/client/gui/widget/ButtonWidget onPress Lnet/minecraft/client/gui/widget/ButtonWidget$PressAction;
+accessible method net/minecraft/client/font/TextRenderer draw (Ljava/lang/String;FFILnet/minecraft/util/math/Matrix4f;ZZ)I
+accessible field net/minecraft/client/gui/widget/EntryListWidget scrolling Z
+accessible field net/minecraft/client/gui/screen/Screen children Ljava/util/List;
+extendable class net/minecraft/util/math/Matrix4f

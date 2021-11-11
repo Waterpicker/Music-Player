@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "music_player",
   "version": "${version}",
 
   "name": "Example Mod",
@@ -18,14 +18,11 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
+    "client": [
+      "info.u_team.music_player.init.MusicPlayerClientConstruct"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
-
+  "accessWidener" : "music_player.accesswidener",
   "depends": {
     "fabricloader": ">=0.11.3",
     "fabric": "*",
